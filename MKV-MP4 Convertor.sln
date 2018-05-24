@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MKV-MP4 Convertor", "MKV-MP4 Convertor\MKV-MP4 Convertor.vbproj", "{DE545605-6873-4670-8915-1E76701FFB13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59CF264B-92A8-467D-B6F1-DCF2ADD73AE5}"
+	ProjectSection(SolutionItems) = preProject
+		..\IconRoutines\IconRoutines\GroupIconResources.cs = ..\IconRoutines\IconRoutines\GroupIconResources.cs
+		..\IconRoutines\IconRoutines\IconEx.cs = ..\IconRoutines\IconRoutines\IconEx.cs
+		..\IconRoutines\IconRoutines\IconRoutines.cs = ..\IconRoutines\IconRoutines\IconRoutines.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE545605-6873-4670-8915-1E76701FFB13}.Debug|x86.ActiveCfg = Release|x86
+		{DE545605-6873-4670-8915-1E76701FFB13}.Debug|x86.Build.0 = Release|x86
+		{DE545605-6873-4670-8915-1E76701FFB13}.Release|x86.ActiveCfg = Release|x86
+		{DE545605-6873-4670-8915-1E76701FFB13}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0D78BD6-1E80-463B-925B-EE4D21BDF86E}
+	EndGlobalSection
+EndGlobal
