@@ -8,7 +8,7 @@ Imports Microsoft.WindowsAPICodePack.Taskbar
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Icon = IconRoutine.HostIcon
+        Icon = My.Resources.app_icon
         Width = 500
         Height = 462
         ToolStripStatusLabel2.Text = Format(Now.Date, "dd MMM yyyy")
@@ -448,7 +448,7 @@ Public Class Form1
                             For i = 0 To aviFile.Text.Count - 1
                                 If File.Exists(convsrc & filename & aviFile.Text(i).ID - 1 & textension(i)) Then
                                     'convert to utf8
-                                    Tools.Files.ToUTF8(convsrc & filename & aviFile.Text(i).ID - 1 & textension(i))
+                                    MyExtentions.Common.Files.ToUTF8(convsrc & filename & aviFile.Text(i).ID - 1 & textension(i))
                                     builder.Append(
                                         Chr(32) & "-add " & Chr(34) & convsrc & filename & aviFile.Text(i).ID - 1 &
                                         textension(i) & Chr(34))

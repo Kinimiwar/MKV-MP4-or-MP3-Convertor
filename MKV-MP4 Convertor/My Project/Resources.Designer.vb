@@ -61,6 +61,16 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property app_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("app_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Error : .
         '''</summary>
         Friend ReadOnly Property Form1_BackgroundWorker1_DoWork_Error___() As String
