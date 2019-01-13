@@ -49,7 +49,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>EF981212B675154DCEE4010EDA5F4C2C953F0929</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>5EDA432B2DB292F1112618D186064D81FD1B0C5B</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>MKV-MP4 Convertor_TemporaryKey.pfx</ManifestKeyFile>
@@ -58,7 +58,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>drm-media-converter-icon217.ico</ApplicationIcon>
@@ -89,10 +89,14 @@
     <WarningLevel>0</WarningLevel>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IconRoutines">
-      <HintPath>..\..\IconRoutines.dll</HintPath>
-    </Reference>
     <Reference Include="MediaInfoDotNet, Version=0.7.81.40926, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\MediaInfoDotNet\MediaInfoDotNet.dll</HintPath>

@@ -8,7 +8,7 @@ Imports Microsoft.WindowsAPICodePack.Taskbar
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Icon = IconRoutines.HostIcon
+        Icon = IconRoutine.HostIcon
         Width = 500
         Height = 462
         ToolStripStatusLabel2.Text = Format(Now.Date, "dd MMM yyyy")
